@@ -7,7 +7,7 @@ const tasks = [
   },
   {
     "id": 2,
-    "text": "Standup",
+    "text": "Standup Meeting",
     "day": "May 6th at 1:30pm",
     "reminder": true
   },
@@ -21,9 +21,11 @@ const tasks = [
 
 const Tasks = () => {
   return (
-    <div>
+    <>
 
-    </div>
+      {tasks.map((task) => (<h3>{task.text}</h3>))}
+
+    </>
   )
 }
 
