@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const addTask = () => {
+const AddTask = () => {
 
 const [text, setText] = useState("");
 const [day, setDay] = useState("");
@@ -31,4 +31,4 @@ const [reminder, setReminder] = useState(false);
   )
 }
 
-export default addTask;
+export default AddTask;
